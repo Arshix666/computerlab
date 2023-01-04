@@ -1,0 +1,153 @@
+/* *{
+    margin: 0px;
+}
+
+html{
+    height: 100%;
+    #0046ae, #9198e5
+}
+
+bigpart -> {
+    height: 400px;
+    width: 270px;
+    rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674)
+}
+
+while mouseover -> {
+   rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792)
+}
+
+
+music player part ->{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+song and the song writers -> {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+song writers -> {
+    color: #666666;
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+song writers while mouseover{
+    color: #2e2e2e;
+}
+
+.play,
+.back,
+.for{
+    border-color: #ffffff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+
+.back
+.for
+.play while mouseover -> {
+    border-color: #bebebe;
+} */
+
+html {
+  height: 100%;
+  background-image: linear-gradient(#0046ae, #9198e5);
+}
+
+div {
+  height: 290px;
+  width: 280px;
+  background: linear-gradient(
+    rgba(171, 179, 192, 0.694),
+    rgba(220, 234, 248, 0.674)
+  );
+  border-radius: 20px;
+  margin-top: 150px;
+  box-shadow: black 2px 2px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 200px;
+}
+div:hover {
+  background: linear-gradient(
+    rgba(171, 179, 192, 0.796),
+    rgba(220, 234, 248, 0.792)
+  );
+}
+img {
+  align-self: center;
+  height: 190px;
+  width: 190px;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: 0px;
+  margin-left: 43px;
+}
+.esm-app {
+  text-align: center;
+  padding-top: 15px;
+  font-size: x-large;
+  color: azure;
+  text-shadow: 2px 2px 5px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.esm-music {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: x-large;
+  color: azure;
+  text-shadow: 2px 2px 5px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.esm {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin-top: auto;
+  font-size: larger;
+  text-shadow: 1px 1px 5px;
+  color: #666666;
+}
+.esm:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  color: #2e2e2e;
+}
+img:hover {
+  box-shadow: 1px 1px 5px black;
+  transition: 0.2s;
+}
+pre {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  color: azure;
+  text-shadow: 2px 2px 5px black;
+}
+
+input {
+  margin-top: auto;
+  margin-left: 12px;
+  width: 250px;
+}
+ul {
+  display: block;
+}
+li {
+  display: inline-block;
+  margin-left: 14px;
+}
+button {
+  border-color: #ffffff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+button:hover {
+  border-color: #bebebe;
+}
